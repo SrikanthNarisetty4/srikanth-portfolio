@@ -1,4 +1,4 @@
-import agro from "../assets/projects/agroConnect.png";
+import agro from "../assets/projects/agroconnect.png";
 import busspass from "../assets/projects/busspass.png";
 import portfolio from "../assets/projects/portfolio.png";
 import springboot from "../assets/projects/springboot.png";
