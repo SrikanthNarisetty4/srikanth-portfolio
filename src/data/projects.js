@@ -1,7 +1,7 @@
-import agro from "../assets/projects/agroconnect.png";
-import spring from "../assets/projects/springboot.png";
-import bus from "../assets/projects/busspass.png";
+import agro from "../assets/projects/agroConnect.png";
+import busspass from "../assets/projects/busspass.png";
 import portfolio from "../assets/projects/portfolio.png";
+import springboot from "../assets/projects/springboot.png";
 
 const projects = [
   {
