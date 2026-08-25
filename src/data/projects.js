@@ -25,7 +25,7 @@ const projects = [
 
   {
     title: "Spring Boot CRUD API",
-    image: spring,
+    image: springboot,
     description:
       "A RESTful CRUD application developed using Spring Boot with layered architecture, Spring Data JPA, Hibernate, and MySQL. Supports complete Create, Read, Update, and Delete operations.",
     tech: [
@@ -42,7 +42,7 @@ const projects = [
 
   {
     title: "Bus Pass Management System",
-    image: bus,
+    image: busspass,
     description:
       "A web application that digitizes the bus pass application process. Users can apply, renew, and manage passes online through an easy-to-use interface.",
     tech: [
