@@ -3,10 +3,10 @@ import {
   FaLinkedin,
   FaHeart,
   FaArrowUp,
+  FaJava,
 } from "react-icons/fa";
 
 function Footer() {
-
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
 
@@ -18,7 +18,6 @@ function Footer() {
   };
 
   return (
-
     <footer className="relative bg-[#070B1A] text-white overflow-hidden">
 
       {/* ================= FOOTER CONTENT ================= */}
@@ -27,25 +26,32 @@ function Footer() {
 
         <div className="grid md:grid-cols-3 gap-10 md:gap-14">
 
-
           {/* ================= BRAND ================= */}
 
           <div>
 
-            <h2
-              className="
-              text-3xl
-              font-bold
-              bg-gradient-to-r
-              from-cyan-400
-              via-blue-400
-              to-fuchsia-500
-              bg-clip-text
-              text-transparent
-              "
-            >
-              &lt;/&gt; Srikanth.dev
-            </h2>
+            {/* Java Logo + Brand */}
+
+            <div className="flex items-center gap-3">
+
+              <FaJava className="text-5xl text-orange-500" />
+
+              <h2
+                className="
+                text-3xl
+                font-bold
+                bg-gradient-to-r
+                from-cyan-400
+                via-blue-400
+                to-fuchsia-500
+                bg-clip-text
+                text-transparent
+                "
+              >
+                Srikanth.dev
+              </h2>
+
+            </div>
 
             <p className="text-gray-400 mt-5 leading-7 max-w-md">
 
@@ -109,13 +115,6 @@ function Footer() {
               </button>
 
               <button
-                onClick={() => scrollToSection("training")}
-                className="text-left hover:text-cyan-400 transition"
-              >
-                Training
-              </button>
-
-              <button
                 onClick={() => scrollToSection("contact")}
                 className="text-left hover:text-cyan-400 transition"
               >
@@ -165,9 +164,7 @@ function Footer() {
                 duration-300
                 "
               >
-
                 <FaGithub size={21} />
-
               </a>
 
 
@@ -195,9 +192,7 @@ function Footer() {
                 duration-300
                 "
               >
-
                 <FaLinkedin size={21} />
-
               </a>
 
             </div>
@@ -283,7 +278,6 @@ function Footer() {
       </button>
 
     </footer>
-
   );
 }
 
